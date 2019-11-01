@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  testDaresay
+
+  Created by Pavle Mijatovic on 29/10/2019.
+  Copyright © 2019 Pavle Mijatovic. All rights reserved.
+*/
+
+// Weather data
+Common_NetworkError = "Please make sure you have an internet connection in order to proceed.";
+AlertCloseBtn = "Close";
+SelectedPlaceIs = "Selected Place Is:";
+Undefined = "Undefined";
+LatAndLongAre = "Selected Latitute And Longitude Are:";
+Today = "Today is";
+CurrentT = "Current Temp is:";
+HighLow = "High and Low are:";
+SunriseSunset = "Sunrise and Sunset are at:";
+MetersPerSecond = "m/s";
+MilesPerHour = "MPH";
+WindSpeedDirectionIs = "Wind Speed Direction:";
+GroundLlvPressureIs = "Ground Level Pressure:";
+SeaLvlPressureIs = "Sea Level Pressure is:";
+HumidityIs = "Humidity:";
+PressureIs = "Pressure:";
+Cloudiness = "Cloudiness:";
+Complete = "Complete";
+CityName = "City Name:";
+Sunrise = "Sunrise:";
+Sunset = "Sunset:";
+LowestT = "Lowest temp:";
+HighestT = "Highest temp:";
+CurrentT = "Current temp:";
+Timezone = "Timezone:";
+FromGMT = "From GMT";
+Metric = "Metric";
+Imperial = "Imperial";
+WindSpeed = "Windspeed:";
+
+// Start Screen
+EnterCityLocation = "Enter city location";
+Find = "Find";
+ShowWeatherForCurrentLocation = "Show weather for current location";
+
+// Alerts
+CityNameNotOk = "City Name Not Ok";
+CityNameNotFound = "City Name Not Found";
+CurrenLocationNotFound = "Curren Location Not Found";
+
+NoLocationFound = "No Location Found";
+InternetOk = "Internet back";

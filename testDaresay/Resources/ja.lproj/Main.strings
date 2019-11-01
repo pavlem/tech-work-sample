@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "Enter city location"; ObjectID = "Pok-WX-nZO"; */
+"Pok-WX-nZO.placeholder" = "Enter city location";
+
+/* Class = "UIButton"; normalTitle = "Find"; ObjectID = "gLL-O0-cVm"; */
+"gLL-O0-cVm.normalTitle" = "Find";
+
+/* Class = "UIButton"; normalTitle = "Show weather for current location"; ObjectID = "zYt-oy-DBc"; */
+"zYt-oy-DBc.normalTitle" = "Show weather for current location";

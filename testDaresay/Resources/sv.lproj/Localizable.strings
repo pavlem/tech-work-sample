@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  testDaresay
+
+  Created by Pavle Mijatovic on 29/10/2019.
+  Copyright © 2019 Pavle Mijatovic. All rights reserved.
+*/
+
+// Weather data
+Common_NetworkError = "Se till att du har en internetuppkoppling för att fortsätta.";
+AlertCloseBtn = "Stänga";
+SelectedPlaceIs = "Vald plats är:";
+Undefined = "Odefinierad";
+LatAndLongAre = "Valt latitiv och längdgrad är:";
+Today = "Idag är";
+CurrentT = "Nuvarande temp är:";
+HighLow = "Hög och låg är:";
+SunriseSunset = "Soluppgång och solnedgång är kl:";
+MetersPerSecond = "m/s";
+MilesPerHour = "MPH";
+WindSpeedDirectionIs = "Vindhastighetsriktning:";
+GroundLlvPressureIs = "Marknivåtryck:";
+SeaLvlPressureIs = "Havsnivåtrycket är:";
+HumidityIs = "Fuktighet:";
+PressureIs = "Tryck:";
+Cloudiness = "Grumlighet:";
+Complete = "Komplett";
+CityName = "Stadens namn:";
+Sunrise = "Soluppgång:";
+Sunset = "Solnedgång:";
+LowestT = "Lägsta temp:";
+HighestT = "Högsta temp:";
+CurrentT = "Aktuell temp:";
+Timezone = "Tidszon:";
+FromGMT = "Från GMT";
+Metric = "Metrisk";
+Imperial = "Kejserlig";
+WindSpeed = "Vindhastighet:";
+
+// Start Screen
+EnterCityLocation = "Ange stadens plats";
+Find = "Hitta";
+ShowWeatherForCurrentLocation = "Visa vädret för den aktuella platsen";
+
+// Alerts
+CityNameNotOk = "Stadsnamn inte OK";
+CityNameNotFound = "Stadsnamn hittades inte";
+CurrenLocationNotFound = "Curren-platsen hittades inte";
+
+NoLocationFound = "Ingen plats hittades";
+InternetOk = "Internet tillbaka";
