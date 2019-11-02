@@ -60,6 +60,11 @@ class MapVC: BaseVC {
     
     // MARK: - Actions
     @objc private func findLocation(_ gesture: UITapGestureRecognizer) {
+        guard ReachabilityHelper.isThereInternetConnection else {
+            showNoInternetAlert()
+            return
+        }
+        
         MapKitHelper.getCoordinatesAndPlacemark(fromGesture: gesture, andMapView: self.mapView) { (coordinate, placemark) in
             self.delegate?.coordinateChosen(point: coordinate, placemark: placemark)
         }

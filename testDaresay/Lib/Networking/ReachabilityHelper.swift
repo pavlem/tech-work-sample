@@ -39,7 +39,7 @@ class ReachabilityHelper {
     init() {
         
         reachability.whenUnreachable = { _ in
-            print("non reachability")
+            print("Unreachable")
             self.delegate?.noInternet()
         }
         

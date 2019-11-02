@@ -715,7 +715,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pavle.pavlecom;
+				PRODUCT_BUNDLE_IDENTIFIER = sprintingsoftware.dsgapps.paja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = WildcardSprintingSoftware_Development;
 				SWIFT_VERSION = 5.0;
@@ -735,7 +735,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pavle.pavlecom;
+				PRODUCT_BUNDLE_IDENTIFIER = sprintingsoftware.dsgapps.paja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = WildcardSprintingSoftware_Development;
 				SWIFT_VERSION = 5.0;

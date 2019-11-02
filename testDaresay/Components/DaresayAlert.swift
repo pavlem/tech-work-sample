@@ -48,7 +48,7 @@ class DaresayAlert: UIView {
 
     // MARK: Calculated
     private var imgViewTopPadding: CGFloat {
-        return UIApplication.keyWindow!.safeAreaInsets.top
+        return UIApplication.keyWindow?.safeAreaInsets.top ?? 0
     }
     
     // MARK: - Inits
