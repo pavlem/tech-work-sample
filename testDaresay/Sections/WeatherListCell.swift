@@ -27,6 +27,13 @@ class WeatherListCell: UITableViewCell {
     // MARK: Constants
     static let id = "WeatherListCell_ID"
 
+    // MARK: - Lifecycle
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        setUI()
+    }
+    
     // MARK: - Helper
     private func updateUI(withWeatherData weatherData: WeatherListData?) {
         guard let inputString = weatherData?.wData else { return }
@@ -70,12 +77,5 @@ class WeatherListCell: UITableViewCell {
         completeString.append(firstPartAtt)
         completeString.append(secondPartAtt)
         return completeString
-    }
-    
-    // MARK: - Lifecycle
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        setUI()
     }
 }
