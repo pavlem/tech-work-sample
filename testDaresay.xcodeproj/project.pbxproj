@@ -217,10 +217,10 @@
 		8E77229C2365920F00F8F637 /* testDaresay */ = {
 			isa = PBXGroup;
 			children = (
-				8ED41DB5236C4A0F002E0E35 /* New Group */,
 				8E7722CD2365923A00F8F637 /* App */,
-				8E7722D223659B0200F8F637 /* Sections */,
+				8ED41DB5236C4A0F002E0E35 /* Model */,
 				8ED41DAF236C4975002E0E35 /* ViewModels */,
+				8E7722D223659B0200F8F637 /* Sections */,
 				8EA8A787236C471B00FB6A8E /* Components */,
 				8EB9BB9A2365A4C3006C4AF4 /* Lib */,
 				8E7722CE2365925300F8F637 /* Resources */,
@@ -337,12 +337,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		8ED41DB5236C4A0F002E0E35 /* New Group */ = {
+		8ED41DB5236C4A0F002E0E35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				8ED41DB6236C4A26002E0E35 /* MeasuringSystem.swift */,
 			);
-			path = "New Group";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
